@@ -76,7 +76,7 @@ git clone https://github.com/PriyanshuLathi/URL-Based-Web-Phishing-Detection-Mod
 2. Navigate to the project directory:
 
 ```bash
-cd phishing-detection
+cd URL-Based-Web-Phishing-Detection-Model
 ```
 
 3. Install dependencies:
