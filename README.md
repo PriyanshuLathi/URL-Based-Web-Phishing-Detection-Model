@@ -67,23 +67,33 @@ The trained models are evaluated based on their performance metrics:
 
 To get started with the project, clone the repository and install the necessary dependencies listed in `requirements.txt`. Run the Jupyter Notebook (`Model.ipynb`) to preprocess data, train the models, and evaluate their performance.
 
+1. Clone the repository:
+
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/phishing-detection.git
+git clone https://github.com/PriyanshuLathi/URL-Based-Web-Phishing-Detection-Model
+```
 
-# Navigate to the project directory
+2. Navigate to the project directory:
+
+```bash
 cd phishing-detection
+```
 
-# Install dependencies
+3. Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
-# Run the Jupyter Notebook
+4. Run the Jupyter Notebook:
+
+```bash
 jupyter notebook Model.ipynb
 ```
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE]() file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/PriyanshuLathi/URL-Based-Web-Phishing-Detection-Model/blob/main/LICENSE) file for details.
 
 ## Contact
 
