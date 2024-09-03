@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Phishing Detector</title>
+    <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+    <header>
+        <h1>Web Phishing Detector</h1>
+    </header>
+
+    <div class="container">
+        <form method="POST" id="phishing-form">
+            {% csrf_token %}
+            {{ form.as_p }}
+            {% for error in form.url.errors %}
+                <p class="error">{{ error }}</p>
+            {% endfor %}
+            <input type="submit" value="Check URL">
+        </form>
+
+        <div id="result">
+            {% if result is not none %}
+                <h2>Result:</h2>
+                {% if result %}
+                    <p>The site is not phishing</p>
+                {% else %}
+                    <p>The site is phishing</p>
+                {% endif %}
+            {% endif %}
+        </div>
+    </div>
+
+    <footer>
+        Made by Ansh Sharma, Priyanshu Lathi
+    </footer>
+
+    <script>
+        document.getElementById('phishing-form').addEventListener('submit', function(event) {
+            document.getElementById('result').innerHTML = '';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+body {
+    background-color: #4B0082; /* Dark violet background color */
+    color: #f0f0f0; /* Light text color */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: space-between; /* Space between header, main, and footer */
+    height: 100vh; /* Set the height of the page to the full viewport height */
+    margin: 0; /* Remove default margins */
+    overflow: hidden; /* Disable scroll bars */
+    font-family: Arial, sans-serif; /* Use a modern font */
+    align-items: center; /* Center content horizontally */
+}
+
+.container {
+    background-color: #1e1e1e; /* Black background color for the container */
+    padding: 100px; /* Add padding inside the container */
+    top : 25%;
+    
+    position: absolute;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    width: 400px; /* Adjusted width for the container */
+    text-align: center; /* Center text inside the container */
+
+
+}
+
+
+form {
+    margin-bottom: 10px; /* Reduced margin at the bottom */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Arrange form elements vertically */
+    align-items: center; /* Center form elements */
+    width: 100%; /* Full width of the container */
+}
+
+input[type="submit"] {
+    background-color: #007BFF; /* Blue button color */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    padding: 10px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 20px; /* Space above submit button */
+    width: 80%; /* Set width to 80% for consistency */
+    transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+input[type="url"] {
+    width: 80%; /* Set width to 80% for consistency */
+    padding: 8px; /* Padding */
+    margin-top: 20px; /* Increased margin above the input field */
+    margin-bottom: 10px; /* Increased margin below the input field */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #444; /* Dark border */
+    background-color: #2a2a2a; /* Dark background color for input */
+    color: white; /* White text color */
+    transition: all 0.3s ease-in-out; /* Smooth transition for all properties */
+}
+
+p.error {
+    color: red; /* Red text color for errors */
+    margin-top: 5px; /* Add small margin above errors */
+    margin-bottom: 5px; /* Add small margin below errors */
+}
+
+h1, h2 {
+    color: #f0f0f0; /* Light text color */
+    margin-bottom: 10px; /* Reduced margin */
+}
+
+header {
+    width: 100%; /* Full width of the page */
+    padding: 10px; /* Padding */
+    background-color: #1e1e1e; /* Dark background color */
+    text-align: center; /* Center text */
+    color: #f0f0f0; /* Light text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to header */
+}
+
+footer {
+    width: 100%; /* Full width of the page */
+    padding: 10px; /* Padding */
+    background-color: #1e1e1e; /* Dark background color */
+    text-align: center; /* Center text */
+    color: #f0f0f0; /* Light text color */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Add shadow to footer */
+    position: fixed; /* Fixed position */
+    bottom: 0; /* Stick to the bottom */
+}
