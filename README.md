@@ -8,6 +8,8 @@ In today's digital landscape, phishing attacks pose a significant threat to indi
 
 This project focuses on the detection of phishing URLs using various machine learning algorithms trained on a curated dataset. The dataset includes both legitimate and phishing URLs, ensuring diversity and representation of various attack types. Key features extracted from the URLs play a crucial role in distinguishing between legitimate and phishing URLs.
 
+<p align="center"> <img src="https://github.com/user-attachments/assets/3ec2ed83-c089-47f5-8960-237c6e706da3" alt="URL based web phishing model" width = 750 /> </p>
+
 ## Problem Statement
 
 Phishing attacks continue to evolve in sophistication, making it challenging to detect malicious URLs using traditional methods. Manual identification of phishing URLs is time-consuming and prone to errors, necessitating automated solutions that can accurately distinguish between legitimate and phishing URLs.
@@ -40,6 +42,8 @@ The dataset is preprocessed by removing unnecessary columns and extracting key f
 - **WebsiteTraffic**: Estimates website traffic.
 - **GoogleIndex**: Checks if the URL is indexed by Google.
 - And more...
+
+<p align="center"> <img src="https://github.com/user-attachments/assets/b868a1bb-4969-4e52-a81f-4bff48a3ebab" alt="URL based web phishing model" width = 750 /> </p>
 
 ## Model Training and Evaluation
 
